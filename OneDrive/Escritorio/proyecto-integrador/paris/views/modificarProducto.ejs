@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs') %>
+    <title>Editar producto</title>
+</head>
+
+<%- include('./partials/header.ejs') %> 
+
+
+<body>
+
+  <main class="main-modificar">
+     <div class="modificar-contain">
+    <div class="detalle-producto-edit">
+        <img src='/img/products/<%=productToEdit.image%>'  alt=<%= productToEdit.description %>  class="imagen-producto">
+        
+
+        <form action="/administrador/modificarProducto/<%= productToEdit.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="nuevo-producto">Nombre del producto</label> <br>
+                <input type="text" class="ingresar-texto" name="name" value='<%= productToEdit.name %>' required>
+            </div>
+            <div>
+                <label for="descripcion-producto">Descripcion del producto</label><br>
+                <textarea name="description" id="" cols="43" rows="5" class="descripcion-producto" required><%= productToEdit.description %> 
+                </textarea>
+            </div>
+            <div>
+                <label for="insertar-imagen" class="label-insertar-img">Insertar imagen</label> <br> <br>
+                <input type="file" name="imagenProductoModificado"  src="imagenProductoModificado" alt="img-producto-nuevo" class='file-select'>
+            </div><br><br>
+            <div>
+                <label for="categoria-producto">Categoría</label><br>
+                <select name="category" id="categoria-producto" class="ingresar-texto" >
+                    <option value="remera" <%= productToEdit.category == 'remera' ? 'selected' : null %>>REMERA</option>
+                    <option value="buzo" <%= productToEdit.category == 'buzo' ? 'selected' : null %> > BUZO</option>
+                    <option value="pantalon" <%= productToEdit.category == 'pantalon' ? 'selected' : null %>>PANTALON</option>
+                    <option value="camisa" <%= productToEdit.category == 'camisa' ? 'selected' : null %>>CAMISA</option>
+                    <option value="malla" <%= productToEdit.category == 'malla' ? 'selected' : null %>>TRAJE DE BAÑO</option>
+                    <option value="medias" <%= productToEdit.category == 'medias' ? 'selected' : null %>>MEDIAS</option>
+                    <option value="gorra" <%= productToEdit.category == 'gorra' ? 'selected' : null %>>GORRA</option>
+                    <option value="campera"<%= productToEdit.category == 'campera' ? 'selected' : null %>>CAMPERA</option>
+                    <option value="bermuda" <%= productToEdit.category == 'bermuda' ? 'selected' : null %>>BERMUDA</option>
+                    <option value="sudadera" <%= productToEdit.category == 'sudadera' ? 'selected' : null %>>SUDADERA</option>
+                    <option value="accesorio"<%= productToEdit.category == 'accesorio' ? 'selected' : null %>>ACCESORIO</option>
+                </select>
+            </div>
+            <label>Talles disponibles:</label><br>
+            <label for="XS">XS</label>
+            <input type="checkbox" name="size" value="XS" id="XS">
+            <label for="S">S</label>
+            <input type="checkbox" name="size" value="S" id="S">
+            <label for="M">M</label>
+            <input type="checkbox" name="size" value="M" id="M">
+            <label for="L">L</label>
+            <input type="checkbox" name="size" value="L" id="L">
+            <label for="XL">XL</label>
+            <input type="checkbox" name="size" value="XL" id="XL">
+            <label for="XXL">XXL</label>
+            <input type="checkbox" name="size" value="XXL" id="XXL"><br>
+            <div>
+                <label for="descuento">Descuento</label><br>
+                <input type="number" name="discount" class="ingresar-texto" placeholder= '<%=productToEdit.discount%>%'  >
+            </div>
+            <div>
+                <label for="precio">Precio</label><br>
+                <span>$  </span><input type="number" name="price" id="precio-producto" placeholder='<%= productToEdit.price %> ' class="ingresar-texto" required>
+            </div>
+            <button type="submit" class="modificar-button">
+                GUARDAR CAMBIOS<i class="far fa-check-square"></i>
+            </button>
+        </form>
+        <form action="/administrador/eliminar/<%= productToEdit.id %>?_method=DELETE" method="POST" > <button class="eliminar-button" enctype="multipart/form-data">ELIMINAR PRODUCTO <i class="far fa-times-circle"></i></button> </form>
+
+
+ </main>  
+    <%- include('./partials/footer.ejs') %> 
+    <script type="text/javascript" src="../jquey/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+
+
+</html>
+

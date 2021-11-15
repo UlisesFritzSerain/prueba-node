@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+     <%- include('./partials/head.ejs') %>
+        <title>Productos </title>
+
+ <body>
+    <%- include('./partials/header.ejs') %>
+    
+    <main class="main-product">
+        <section class="section-product">
+            <% enOferta.forEach(producto => { %>
+                <article class="article-product">
+                    <a href="/productos/detalle/<%= producto.id %> ">
+                        <img src="/img/products/<%= producto.image %>" alt="Imagen">
+                        <h4> <%= producto.name %></h4>
+                        <h5>$<%= producto.price %></h5>
+                        <% if(producto.discount > 0){ %> 
+                            <p><%= producto.discount %>% de descuento </p>
+                        <% }else{ %> 
+                        <p><br></p>
+                            <% } %>
+                    </a>
+                </article>
+            <% }) %> 
+        </section>
+    </main>
+    <%- include('./partials/footer.ejs') %> 
+    <script type="text/javascript" src="../jquey/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+ </body>
+</html>

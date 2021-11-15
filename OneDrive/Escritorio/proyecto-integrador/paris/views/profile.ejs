@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+    <title>Carrito de compras</title>
+<body>
+    <%- include('./partials/header.ejs') %>
+
+    <main>
+        <h1>Bienvenido a tu perfil</h1>
+        <div class='div-profile'>
+            <h2><%= user.firstName%> <%= user.lastName %> </h2>
+            <img src="/img/users/<%= user.image %>" alt="Img de perfil">
+            <p>Fua que fachero que sos!!!!!!</p>
+            <p><strong>Email:</strong> <%= user.email %> </p>
+            <p><strong>Categoría:</strong> Administrador</p>
+        </div>
+
+        <a href="/" class='boton-profile'>Seguir mirando indumentaria ></a>
+    </main>
+    <%- include('./partials/footer.ejs') %> 
+    <script type="text/javascript" src="../jquey/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

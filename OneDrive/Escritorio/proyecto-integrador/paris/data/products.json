@@ -1,0 +1,881 @@
+[
+ {
+  "id": 2,
+  "name": "Remera París",
+  "description": "Remera paris Messi",
+  "category": "remera",
+  "size": "M",
+  "discount": "10",
+  "price": "25000",
+  "image": "1634059312561_img_.jpg"
+ },
+ {
+  "id": 3,
+  "name": "Buzo",
+  "description": "Buzo negro",
+  "category": "buzo",
+  "size": "L",
+  "discount": "",
+  "price": "15000",
+  "image": "1634060899870_img_.jpg"
+ },
+ {
+  "id": 4,
+  "name": "Remera París Negra",
+  "description": "Remera bien piolonaaa",
+  "category": "remera",
+  "discount": "20",
+  "price": "4000",
+  "image": "1634399383827_img_.jpg"
+ },
+ {
+  "id": 5,
+  "name": "Remera blanca",
+  "description": "Remera blanca",
+  "category": "remera",
+  "size": "M",
+  "discount": "15",
+  "price": "354",
+  "image": "1634063882064_img_.jpg"
+ },
+ {
+  "id": 6,
+  "name": "Remera Nirvana",
+  "description": "Remera negra con estampado de la banda Nirvana",
+  "category": "remera",
+  "size": "L",
+  "discount": "20",
+  "price": "4000",
+  "image": "1634080901977_img_.jpg"
+ },
+ {
+  "id": 7,
+  "name": "Remera Hollister",
+  "description": "Remera Hollister color azul oscuro con estampado colorido",
+  "category": "remera",
+  "size": "M",
+  "discount": "10",
+  "price": "3200",
+  "image": "1634081013537_img_.jpg"
+ },
+ {
+  "id": 8,
+  "name": "Remera con Botones",
+  "description": "Remera blanca con botones",
+  "category": "remera",
+  "size": "XS",
+  "discount": "",
+  "price": "2500",
+  "image": "1634081068882_img_.jpg"
+ },
+ {
+  "id": 9,
+  "name": "Remera negra",
+  "description": "Remera negra con estampado de sonrisa blanca",
+  "category": "remera",
+  "size": "L",
+  "discount": "15",
+  "price": "3000",
+  "image": "1634081104621_img_.jpg"
+ },
+ {
+  "id": 10,
+  "name": "Remera Bob Marley",
+  "description": "Remera negra con estampado de Bob Marley y su tradicional frase",
+  "category": "remera",
+  "size": "XL",
+  "discount": "30",
+  "price": "5000",
+  "image": "1634081158676_img_.jpg"
+ },
+ {
+  "id": 11,
+  "name": "Remera con bolsillo",
+  "description": "Remera blanca y gris con bolsillo ",
+  "category": "remera",
+  "size": "L",
+  "discount": "",
+  "price": "4000",
+  "image": "1634081189094_img_.jpg"
+ },
+ {
+  "id": 12,
+  "name": "Remera Calavera ",
+  "description": "Remera Blanca con estampado de Calavera",
+  "category": "remera",
+  "size": "XXL",
+  "discount": "20",
+  "price": "2000",
+  "image": "1634081226372_img_.jpg"
+ },
+ {
+  "id": 13,
+  "name": "Remera negra",
+  "description": "Remera negra ajustada al cuerpo",
+  "category": "remera",
+  "size": "S",
+  "discount": "5",
+  "price": "4000",
+  "image": "1634081261533_img_.jpg"
+ },
+ {
+  "id": 14,
+  "name": "Buzo Nike",
+  "description": "Buzo Nike Gris",
+  "category": "buzo",
+  "size": "L",
+  "discount": "20",
+  "price": "7000",
+  "image": "1634082044835_img_.jpg"
+ },
+ {
+  "id": 15,
+  "name": "Buzo Beige",
+  "description": "Buzo Beige",
+  "category": "buzo",
+  "size": "XS",
+  "discount": "50",
+  "price": "6000",
+  "image": "1634082093078_img_.jpg"
+ },
+ {
+  "id": 16,
+  "name": "Buzo Adidas",
+  "description": "Buzo Adidas Gris",
+  "category": "buzo",
+  "size": "M",
+  "discount": "20",
+  "price": "8000",
+  "image": "1634082121023_img_.jpg"
+ },
+ {
+  "id": 17,
+  "name": "Buzo Blanco",
+  "description": "Buzo Blanco Abercrombie",
+  "category": "buzo",
+  "size": "M",
+  "discount": "10",
+  "price": "9000",
+  "image": "1634082165575_img_.jpg"
+ },
+ {
+  "id": 18,
+  "name": "Buzo Adidas Deportivo",
+  "description": "Buzo Adidas Gris ",
+  "category": "buzo",
+  "size": "L",
+  "discount": "20",
+  "price": "4000",
+  "image": "1634082212148_img_.jpg"
+ },
+ {
+  "id": 19,
+  "name": "Buzo Fila Tricolor",
+  "description": "Buzo Fila Tricolor",
+  "category": "buzo",
+  "size": "XXL",
+  "discount": "",
+  "price": "5000",
+  "image": "1634082250780_img_.jpg"
+ },
+ {
+  "id": 20,
+  "name": "Buzo Hollister",
+  "description": "Buzo Hollister Negro",
+  "category": "buzo",
+  "size": "S",
+  "discount": "60",
+  "price": "10000",
+  "image": "1634082288966_img_.jpg"
+ },
+ {
+  "id": 21,
+  "name": "Buzo Abercrombie",
+  "description": "Buzo Abercrombie",
+  "category": "buzo",
+  "size": "XL",
+  "discount": "20",
+  "price": "4000",
+  "image": "1634082326077_img_.jpg"
+ },
+ {
+  "id": 22,
+  "name": "Buzo Tommy",
+  "description": "Buzo Tommy Azul",
+  "category": "buzo",
+  "size": "S",
+  "discount": "15",
+  "price": "4500",
+  "image": "1634082390380_img_.jpg"
+ },
+ {
+  "id": 23,
+  "name": "Buzo Fila Negro",
+  "description": "Buzo Fila Negro",
+  "category": "buzo",
+  "size": "XL",
+  "discount": "25",
+  "price": "7600",
+  "image": "1634082435855_img_.jpg"
+ },
+ {
+  "id": 24,
+  "name": "Jean Celeste Roto",
+  "description": "Jean Celeste Roto",
+  "category": "pantalon",
+  "size": "M",
+  "discount": "20",
+  "price": "5000",
+  "image": "1634082973362_img_.png"
+ },
+ {
+  "id": 25,
+  "name": "Jean Celeste Chupin",
+  "description": "Jean Celeste Chupin",
+  "category": "pantalon",
+  "size": "S",
+  "discount": "10",
+  "price": "3000",
+  "image": "1634083010629_img_.jpg"
+ },
+ {
+  "id": 26,
+  "name": "Pantalón Cuadrille Negro",
+  "description": "Pantalón Cuadrille Negro",
+  "category": "pantalon",
+  "size": "L",
+  "discount": "20",
+  "price": "6000",
+  "image": "1634083042484_img_.jpg"
+ },
+ {
+  "id": 27,
+  "name": "Jean Blanco",
+  "description": "Jean Blanco",
+  "category": "pantalon",
+  "size": "XL",
+  "discount": "20",
+  "price": "7800",
+  "image": "1634083069108_img_.jpg"
+ },
+ {
+  "id": 28,
+  "name": "Pantalón Cuadrille Gris",
+  "description": "Pantalón Cuadrille Gris",
+  "category": "pantalon",
+  "size": "XS",
+  "discount": "50",
+  "price": "6000",
+  "image": "1634083092858_img_.jpg"
+ },
+ {
+  "id": 29,
+  "name": "Jogger Oscuro",
+  "description": "Jogger Oscuro",
+  "category": "pantalon",
+  "size": "M",
+  "discount": "20",
+  "price": "3200",
+  "image": "1634083121897_img_.jpg"
+ },
+ {
+  "id": 30,
+  "name": "Jogger Crema",
+  "description": "Jogger Crema",
+  "category": "pantalon",
+  "size": "L",
+  "discount": "5",
+  "price": "4000",
+  "image": "1634083150401_img_.jpg"
+ },
+ {
+  "id": 31,
+  "name": "Jean Negro Roto",
+  "description": "Jean Negro Roto",
+  "category": "pantalon",
+  "size": "XL",
+  "discount": "20",
+  "price": "6580",
+  "image": "1634083182484_img_.jpg"
+ },
+ {
+  "id": 32,
+  "name": "Jean Blanco Roto",
+  "description": "Jean Blanco Roto",
+  "category": "pantalon",
+  "size": "XL",
+  "discount": "20",
+  "price": "4500",
+  "image": "1634083212039_img_.jpg"
+ },
+ {
+  "id": 33,
+  "name": "Camisa Cuadros",
+  "description": "Camisa Cuadros rojos y negros",
+  "category": "camisa",
+  "size": "M",
+  "discount": "10",
+  "price": "6790",
+  "image": "1634084060352_img_.jpg"
+ },
+ {
+  "id": 34,
+  "name": "Camisa Rayas ",
+  "description": "Camisa Rayas ",
+  "category": "camisa",
+  "size": "XXL",
+  "discount": "20",
+  "price": "4500",
+  "image": "1634084134945_img_.jpg"
+ },
+ {
+  "id": 35,
+  "name": "Camisa Cuadros",
+  "description": "Blanco y negro",
+  "category": "camisa",
+  "size": "M",
+  "discount": "10",
+  "price": "4000",
+  "image": "1634084174850_img_.jpg"
+ },
+ {
+  "id": 36,
+  "name": "Camisa Estampados",
+  "description": "Camisa Estampados",
+  "category": "camisa",
+  "size": "L",
+  "discount": "40",
+  "price": "7000",
+  "image": "1634084236113_img_.jpg"
+ },
+ {
+  "id": 37,
+  "name": "Camisa Azul Oscuro",
+  "description": "Camisa Elegante Azul Oscuro",
+  "category": "camisa",
+  "size": "S",
+  "discount": "15",
+  "price": "8000",
+  "image": "1634084283326_img_.jpg"
+ },
+ {
+  "id": 38,
+  "name": "Camisa Celeste",
+  "description": "Camisa Celeste Elegante",
+  "category": "camisa",
+  "size": "XL",
+  "discount": "50",
+  "price": "3500",
+  "image": "1634084317500_img_.jpg"
+ },
+ {
+  "id": 39,
+  "name": "Camisa con Puntos",
+  "description": "Camisa blanca con Puntos negros ",
+  "category": "camisa",
+  "size": "L",
+  "discount": "10",
+  "price": "6000",
+  "image": "1634084360225_img_.jpg"
+ },
+ {
+  "id": 40,
+  "name": "Camisa manga corta",
+  "description": "Camisa manga corta mostaza",
+  "category": "camisa",
+  "size": "M",
+  "discount": "10",
+  "price": "5000",
+  "image": "1634084426774_img_.jpg"
+ },
+ {
+  "id": 41,
+  "name": "Camisa manga corta",
+  "description": "Camisa Floreada",
+  "category": "camisa",
+  "size": "M",
+  "discount": "30",
+  "price": "3000",
+  "image": "1634084467062_img_.jpg"
+ },
+ {
+  "id": 42,
+  "name": "Traje de Baño con dibujos",
+  "description": "Traje de Baño Blanco con estampas de colores",
+  "category": "malla",
+  "size": "L",
+  "discount": "10",
+  "price": "4000",
+  "image": "1634091835595_img_.jpg"
+ },
+ {
+  "id": 43,
+  "name": "Traje de Baño con rayas",
+  "description": "Traje de baño con rayas blancas y azules",
+  "category": "malla",
+  "size": "S",
+  "discount": "",
+  "price": "3000",
+  "image": "1634091957402_img_.jpg"
+ },
+ {
+  "id": 44,
+  "name": "Traje de Baño Liso",
+  "description": "Traje de Baño Liso Color verde militar",
+  "category": "malla",
+  "size": "L",
+  "discount": "",
+  "price": "2500",
+  "image": "1634092445761_img_.jpg"
+ },
+ {
+  "id": 45,
+  "name": "Traje de Baño con dibujos",
+  "description": "Traje de baño rosa con dibujos de cactus",
+  "category": "malla",
+  "size": "XXL",
+  "discount": "",
+  "price": "3400",
+  "image": "1634092477289_img_.jpg"
+ },
+ {
+  "id": 46,
+  "name": "Traje de Baño Liso",
+  "description": "Traje de Baño Liso color Rojo",
+  "category": "malla",
+  "size": "L",
+  "discount": "",
+  "price": "2800",
+  "image": "1634092512171_img_.jpg"
+ },
+ {
+  "id": 47,
+  "name": "Traje de Baño Liso",
+  "description": "Traje de Baño Liso color rosa",
+  "category": "malla",
+  "size": "M",
+  "discount": "10",
+  "price": "2000",
+  "image": "1634092550330_img_.jpg"
+ },
+ {
+  "id": 48,
+  "name": "Traje de Baño con dibujos",
+  "description": "Traje de Baño con dibujos color negro y dibujos azules",
+  "category": "malla",
+  "size": "XL",
+  "discount": "20",
+  "price": "4000",
+  "image": "1634092635243_img_.jpg"
+ },
+ {
+  "id": 49,
+  "name": "Traje de Baño Liso",
+  "description": "Traje de Baño Liso: Color Azul marino",
+  "category": "malla",
+  "size": "M",
+  "discount": "10",
+  "price": "2000",
+  "image": "1634092665900_img_.jpg"
+ },
+ {
+  "id": 50,
+  "name": "Traje de Baño con dibujos",
+  "description": "Traje de Baño con dibujos y colores tropicales",
+  "category": "malla",
+  "size": "S",
+  "discount": "5",
+  "price": "4000",
+  "image": "1634092701882_img_.jpg"
+ },
+ {
+  "id": 51,
+  "name": "Medias B&W",
+  "description": "Medias blancas con líneas negras",
+  "category": "medias",
+  "size": "S",
+  "discount": "",
+  "price": "1000",
+  "image": "1634093641928_img_.jpg"
+ },
+ {
+  "id": 52,
+  "name": "Medias Fuego",
+  "description": "Medias Fuego en blanco y en negro",
+  "category": "medias",
+  "size": "M",
+  "discount": "10",
+  "price": "800",
+  "image": "1634093685160_img_.jpg"
+ },
+ {
+  "id": 53,
+  "name": "Medias Aliens",
+  "description": "Medias negras con Aliens Verdes",
+  "category": "medias",
+  "size": "M",
+  "discount": "",
+  "price": "800",
+  "image": "1634093714134_img_.jpg"
+ },
+ {
+  "id": 54,
+  "name": "Medias Rolling Stones",
+  "description": "Medias Rolling Stones en blanco y en negro",
+  "category": "medias",
+  "size": "M",
+  "discount": "5",
+  "price": "1000",
+  "image": "1634093798322_img_.jpg"
+ },
+ {
+  "id": 55,
+  "name": "Medias Jordan",
+  "description": "Medias Jordan Rojas",
+  "category": "medias",
+  "size": "M",
+  "discount": "20",
+  "price": "1000",
+  "image": "1634093825651_img_.jpg"
+ },
+ {
+  "id": 56,
+  "name": "Medias Stars War",
+  "description": "Medias Stars War Negras y amarillas",
+  "category": "medias",
+  "size": "M",
+  "discount": "10",
+  "price": "2000",
+  "image": "1634093871333_img_.jpg"
+ },
+ {
+  "id": 57,
+  "name": "Medias NASA",
+  "description": "Medias con dibujos de la NASA",
+  "category": "medias",
+  "size": "M",
+  "discount": "10",
+  "price": "1200",
+  "image": "1634093903043_img_.jpg"
+ },
+ {
+  "id": 58,
+  "name": "Campera AFA",
+  "description": "Campera del campeón de América",
+  "category": "campera",
+  "size": "L",
+  "discount": "25",
+  "price": "20000",
+  "image": "1634172638743_img_.jpg"
+ },
+ {
+  "id": 59,
+  "name": "Campera gris",
+  "description": "Campera gris con capucha",
+  "category": "campera",
+  "size": "M",
+  "discount": "25",
+  "price": "12500",
+  "image": "1634172719455_img_.jpg"
+ },
+ {
+  "id": 60,
+  "name": "Campera Lacoste",
+  "description": "Campera color beige Lacoste",
+  "category": "campera",
+  "size": "M",
+  "discount": "25",
+  "price": "16000",
+  "image": "1634172784864_img_.jpg"
+ },
+ {
+  "id": 61,
+  "name": "Campera Ferrari",
+  "description": "Campera Ferrari negra y roja",
+  "category": "campera",
+  "size": "L",
+  "discount": "25",
+  "price": "28000",
+  "image": "1634172912051_img_.jpg"
+ },
+ {
+  "id": 62,
+  "name": "Campera negra",
+  "description": "Cempera negra loar",
+  "category": "campera",
+  "size": "L",
+  "discount": "25",
+  "price": "12000",
+  "image": "1634172978472_img_.jpg"
+ },
+ {
+  "id": 63,
+  "name": "Campera Montagne",
+  "description": "Campera Montagne beige con polar",
+  "category": "campera",
+  "size": "L",
+  "discount": "25",
+  "price": "24000",
+  "image": "1634173058092_img_.jpg"
+ },
+ {
+  "id": 64,
+  "name": "Campera rompe viento",
+  "description": "Campera rompe viento roja y azul",
+  "category": "campera",
+  "size": "M",
+  "discount": "25",
+  "price": "16500",
+  "image": "1634173121983_img_.jpg"
+ },
+ {
+  "id": 65,
+  "name": "Campera negra simple",
+  "description": "Campera negra con cierre rojo",
+  "category": "campera",
+  "size": "L",
+  "discount": "25",
+  "price": "14000",
+  "image": "1634173150642_img_.jpg"
+ },
+ {
+  "id": 66,
+  "name": "Campera Nike negra",
+  "description": "Campera Nike negra",
+  "category": "campera",
+  "size": "L",
+  "discount": "25",
+  "price": "18000",
+  "image": "1634173204562_img_.jpg"
+ },
+ {
+  "id": 67,
+  "name": "Malla roja ",
+  "description": "Malla del fenómeno",
+  "category": "malla",
+  "size": "L",
+  "discount": "25",
+  "price": "2000",
+  "image": "1634173612319_img_.jpg"
+ },
+ {
+  "id": 68,
+  "name": "Bermuda rosa",
+  "description": "Bermuda rosa",
+  "category": "bermuda",
+  "size": "M",
+  "discount": "15",
+  "price": "4000",
+  "image": "1634173688778_img_.jpg"
+ },
+ {
+  "id": 69,
+  "name": "Bermuda verde",
+  "description": "Bermuda verde con bolsillo",
+  "category": "bermuda",
+  "size": "M",
+  "discount": "10",
+  "price": "4200",
+  "image": "1634173716587_img_.jpg"
+ },
+ {
+  "id": 70,
+  "name": "Bermuda de jean",
+  "description": "Bermuda de jean azul",
+  "category": "bermuda",
+  "size": "M",
+  "discount": "",
+  "price": "3000",
+  "image": "1634173743623_img_.jpg"
+ },
+ {
+  "id": 71,
+  "name": "Bermuda negra",
+  "description": "Bermuda negra con bolsillo",
+  "category": "bermuda",
+  "size": "M",
+  "discount": "",
+  "price": "2000",
+  "image": "1634173795190_img_.jpg"
+ },
+ {
+  "id": 72,
+  "name": "Bermuda negra",
+  "description": "Bermuda negra sin cierre",
+  "category": "bermuda",
+  "size": "L",
+  "discount": "",
+  "price": "2400",
+  "image": "1634173828556_img_.jpg"
+ },
+ {
+  "id": 73,
+  "name": "Bermuda militar",
+  "description": "Bermuda cargo militar",
+  "category": "bermuda",
+  "size": "L",
+  "discount": "",
+  "price": "5000",
+  "image": "1634174562165_img_.jpg"
+ },
+ {
+  "id": 74,
+  "name": "Gorra cara Diego",
+  "description": "Gorra de la cara de Diego",
+  "category": "gorra",
+  "size": "S",
+  "discount": "",
+  "price": "1500",
+  "image": "1634175128264_img_.jpeg"
+ },
+ {
+  "id": 75,
+  "name": "Gorro negro Adidas",
+  "description": "Gorro negro Adidas",
+  "category": "gorra",
+  "size": "S",
+  "discount": "",
+  "price": "1200",
+  "image": "1634175155913_img_.jpg"
+ },
+ {
+  "id": 76,
+  "name": "Gorra Goku",
+  "description": "Gorra goku negra",
+  "category": "gorra",
+  "size": "M",
+  "discount": "",
+  "price": "2000",
+  "image": "1634175196163_img_.jpg"
+ },
+ {
+  "id": 77,
+  "name": "Gorra tazmania",
+  "description": "Gorra demonio de tazmania",
+  "category": "gorra",
+  "size": "M",
+  "discount": "",
+  "price": "2100",
+  "image": "1634175225448_img_.jpg"
+ },
+ {
+  "id": 78,
+  "name": "Gorra bugs bunny",
+  "description": "Gorra bugs bunny",
+  "category": "gorra",
+  "size": "M",
+  "discount": "",
+  "price": "2000",
+  "image": "1634175273595_img_.jpg"
+ },
+ {
+  "id": 79,
+  "name": "Gorra AFA",
+  "description": "Gorra AFA azul",
+  "category": "gorra",
+  "size": "M",
+  "discount": "10",
+  "price": "1500",
+  "image": "1634175301164_img_.jpg"
+ },
+ {
+  "id": 80,
+  "name": "Gorra símbolo $",
+  "description": "Gorra simbolo dólar",
+  "category": "gorra",
+  "size": "M",
+  "discount": "",
+  "price": "1500",
+  "image": "1634175360934_img_.jpg"
+ },
+ {
+  "id": 81,
+  "name": "Gorro U.R.S.S negro",
+  "description": "Gorro de la Unión de la República Socialista Soviética negro",
+  "category": "gorra",
+  "size": "M",
+  "discount": "",
+  "price": "5000",
+  "image": "1634175443659_img_.jpg"
+ },
+ {
+  "id": 82,
+  "name": "Piluso dólares",
+  "description": "Piluso estampado con dólares",
+  "category": "gorra",
+  "size": "M",
+  "discount": "",
+  "price": "2000",
+  "image": "1634175598682_img_.jpg"
+ },
+ {
+  "id": 83,
+  "name": "Neseser negro con tachas",
+  "description": "Neseser negro con cierre frontal y tachas",
+  "category": "accesorio",
+  "size": "XS",
+  "discount": "",
+  "price": "3200",
+  "image": "1634242101177_img_.jpg"
+ },
+ {
+  "id": 84,
+  "name": "Riñonera Nike",
+  "description": "Riñonera nike azul",
+  "category": "accesorio",
+  "size": "XS",
+  "discount": "",
+  "price": "2100",
+  "image": "1634242249545_img_.jpg"
+ },
+ {
+  "id": 85,
+  "name": "Billetera Maradona",
+  "description": "Billetera con la cara de Maradona",
+  "category": "accesorio",
+  "size": "XS",
+  "discount": "",
+  "price": "1000",
+  "image": "1634243139124_img_.jpg"
+ },
+ {
+  "id": 86,
+  "name": "Billetera Everlast",
+  "description": "Billetera Everlast gris y azul",
+  "category": "accesorio",
+  "size": "XS",
+  "discount": "10",
+  "price": "1520",
+  "image": "1634243174137_img_.jpg"
+ },
+ {
+  "id": 87,
+  "name": "Billetera Everlast marrón",
+  "description": "Billetera Everlast marrón ",
+  "category": "accesorio",
+  "size": "XS",
+  "discount": "15",
+  "price": "2000",
+  "image": "1634243238352_img_.jpg"
+ },
+ {
+  "id": 88,
+  "name": "Riñonera negra",
+  "description": "Riñonera negra",
+  "category": "accesorio",
+  "size": "XS",
+  "discount": "",
+  "price": "2200",
+  "image": "1634243311692_img_.jpg"
+ },
+ {
+  "id": 89,
+  "name": "Neseser negro",
+  "description": "Neseser negro",
+  "category": "accesorio",
+  "size": "XS",
+  "discount": "",
+  "price": "1500",
+  "image": "1634243445371_img_.jpg"
+ }
+]

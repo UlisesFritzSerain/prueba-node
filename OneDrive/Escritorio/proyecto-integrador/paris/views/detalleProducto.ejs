@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+    <title>Detalle de producto</title>
+<body>
+     <%- include('./partials/header.ejs') %>
+    <main>
+        <!-- <%= console.log(product.name) %>  -->
+        <div class="detalle-producto">
+            <br>
+            <a href="/administrador/modificarProducto/<%= product.id %> " class="button-agregar-carrito">Modificar producto</a><br>
+            <img src='/img/products/<%=product.image %>'  alt=<%=product.description%>  class="imagen-producto">
+            <h2 class ="titulo-producto"><%= product.name %> </h2>
+            <h4 class="titulo-producto"> <%= product.description %>  </h4>
+            <h2>$<%= product.price %> </h2><br>
+            <h3 class= "titulo-talles">Talles</h3>
+            <div class="caracteristicas-producto">
+                <p>XS</p>
+                <p>S</p>
+                <p>M</p>
+                <p>L</p>
+                <p>XL</p>
+                <p>XXL</p>
+            </div>
+            <div class= "contenedor-garantia-stock">
+                <p><i class="fas fa-check iconos-producto"></i>Stock disponible</p>
+                <p><i class="fas fa-truck iconos-producto"></i>Envíos a todo el país</p>
+            </div>
+            <button type="submit" class="button-comprar">Comprá Ahora</button>
+            <br>
+            <button type="submit" class="button-agregar-carrito">Sumar al carrito</button><br>
+            <div class="div-cantidad-producto">
+                <input type="text" class ="cantidad-productos-detalle">
+                <button class="sumar-restar-producto-mas">+</button>
+                <button class="sumar-restar-producto-menos">-</button>
+            </div>
+        
+            <form method="POST" action="/" class ="consultas-producto">
+                <p class="p-consultas">¿Nos querés hacer alguna pregunta sobre éste producto?</p><br>
+                <label for="email-consulta" class="label-email-consulta">Dejanos tu email</label><br>
+                <input type="email" name="email-consulta" class="input-email-consulta" placeholder="ejemplo@email.com"><br>
+                <textarea name="" id="" cols="60" rows="10" placeholder="Hacenos tu consulta" class="textarea-consultas"></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+            
+        </div>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+    <script type="text/javascript" src="../jquey/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

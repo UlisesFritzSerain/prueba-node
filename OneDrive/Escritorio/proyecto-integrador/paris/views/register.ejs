@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+    <title>Registrarse</title>
+ <body>
+    
+    <%- include('./partials/header.ejs') %>
+    <main id="main-register">
+        <h2 class="form-titulo">Completá tus datos</h2>
+       
+        <div class="container-form">
+            <form action="/usuarios/register" method="POST" class="form-control" enctype="multipart/form-data">
+            
+                <div class="form-nombre">
+                    <label>Nombre</label><br>
+                    <input class="ingresar-texto" type="text" name="firstName" 
+                    value="<%= locals.oldData ? oldData.firstName : null %>" >
+                    <% if (locals.errors && errors.firstName) { %>
+                        <div class="text-danger"><%= errors.firstName.msg %></div>
+                    <% } %>
+                </div>
+                
+                <div class="form-nombre">
+                    <label>Apellido</label> <br>
+                    <input class="ingresar-texto" type="text" name="lastName" 
+                    value="<%= locals.oldData ? oldData.lastName : null %>" >
+                    <% if (locals.errors && errors.lastName) { %>
+                        <div class="text-danger"> <%= errors.lastName.msg %>   </div>
+                    <% } %>
+                </div>
+                <div class="form-email">
+                    <label>Email</label><br>
+                    <input class="ingresar-texto" type="email" name="email" 
+                     value="<%= locals.oldData ? oldData.email : null %>">
+                    <% if (locals.errors && errors.email) { %>
+                        <div class="text-danger"> <%= errors.email.msg %>   </div>
+                    <% } %>
+                </div>
+                <div>
+                    <label>Elegí tu foto de perfil</label><br><br>
+                    <input type="file" name="img-profile" id="">
+                </div><br>
+                <div class="form-contraseña">
+                    <label>Creá tu constraseña</label><br>
+                    <input class="ingresar-texto" type="password" name="password">
+                    <% if (locals.errors && errors.password) { %>
+                        <div class="text-danger"> <%= errors.password.msg %>   </div>
+                    <% } %>
+                </div>
+                <div class="form-confirm-contraseña">
+                    <label>Confirmá tu contraseña</label><br>
+                    <input class="ingresar-texto" type="password" name="confirmPassword" >
+                    <% if (locals.errors && errors.confirmPassword) { %>
+                        <div class="text-danger"> <%= errors.confirmPassword.msg %>   </div>
+                    <% } %>
+                </div>
+
+                <button type="submit" class="boton-enviar">Enviar</button>
+                <button type="reset" class="boton-borrar">Borrar</button>
+            </form>
+        </div>
+    </main>
+    <%- include('./partials/footer.ejs') %>
+    <script type="text/javascript" src="../jquey/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

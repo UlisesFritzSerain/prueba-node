@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head.ejs') %>
+    <title>Agregar producto</title>
+</head>
+<body>
+    <%- include('./partials/header.ejs') %>
+    
+    <main>
+        <div class="container-form">
+            <h2>Agregar un producto</h2><br>
+            <form action="/administrador/agregarProducto" method="POST" enctype="multipart/form-data">
+                <div>
+                    <label for="nuevo-producto">Nombre del producto</label> <br>
+                    <input type="text" class="ingresar-texto" name="name" required>
+                </div>
+                <div>
+                    <label for="descripcion-producto">Descripcion del producto</label><br>
+                    <textarea name="description" id="" cols="43" rows="5" class="descripcion-producto" required></textarea>
+                </div>
+                <div>
+                    <label for="insertar-imagen" class="label-insertar-img">Insertar imagen</label> <br> <br>
+                    <input type="file" name="imagenProductoNuevo" required src="imagenProductoNuevo" alt="img-producto-nuevo" class='file-select'>
+                </div><br><br>
+                <div>
+                    <label for="categoria-producto">Categoría</label><br>
+                    <select name="category" id="categoria-producto" class="ingresar-texto" >
+                        <option value="remera">REMERA</option>
+                        <option value="buzo">BUZO</option>
+                        <option value="pantalon">PANTALON</option>
+                        <option value="camisa">CAMISA</option>
+                        <option value="malla">TRAJE DE BAÑO</option>
+                        <option value="medias">MEDIAS</option>
+                        <option value="gorra">GORRA</option>
+                        <option value="campera">CAMPERA</option>
+                        <option value="bermuda">BERMUDA</option>
+                        <option value="sudadera">SUDADERA</option>
+                        <option value="accesorio">ACCESORIO</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Talle</label><br>
+                    <select name="size" id="talles" class="ingresar-texto" required>
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                        <option value="XXL">XXL</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="descuento">Descuento</label><br>
+                    <input type="number" name="discount" class="ingresar-texto">
+                </div>
+                <div>
+                    <label for="precio">Precio</label><br>
+                    <span>$  </span><input type="number" name="price" id="precio-producto" class="ingresar-texto" required>
+                </div>
+                <input type="submit" value="Agregar" class="agregar-submit">
+            </form>
+        </div>
+    </main>
+
+    <%- include('./partials/footer.ejs') %>
+    <script type="text/javascript" src="../jquey/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

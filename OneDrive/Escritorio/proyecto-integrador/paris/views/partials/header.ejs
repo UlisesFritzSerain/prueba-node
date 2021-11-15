@@ -1,0 +1,70 @@
+<header>
+  <div class="header-flex">
+  <a href="/"><img src="https://http2.mlstatic.com/D_NQ_NP_758613-MLA47047446747_082021-W.jpg" alt="" class="logo"></a>
+  <a href="/usuarios/login" class='btn btn-secondary btn-lg my-3 ingresar'>Login</a>
+  <a href="/usuarios/register" class="btn btn-secondary btn-lg my-3 crear-cuenta">Creá tu cuenta</a>
+  <div class="lupa-barra">
+      <button class="lupa"><i class="fas fa-search"></i></button>
+      
+  </div>
+  <a class="btn p-1 btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+    <i class="fas fa-bars hamburguesa"></i>
+    </a>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <SPAN>OPCIONES</SPAN>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <p>
+        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Administrar ></a>
+      </p>
+      <!-- <div class="row"> -->
+        <!-- <div class="col"> -->
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="agregarProducto">
+              <a href="/administrador/agregarProducto">AGREGAR PRODUCTO</a>
+            </div>
+            <div class="agregarProducto">
+              <a href="/usuarios/login">LOGIN</a>
+            </div>
+            <div class="agregarProducto">
+              <a href="/usuarios/register">CREÁ TU CUENTA</a>
+            </div>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
+
+      <p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Productos ></button>
+      </p>
+      <div class="row">
+        <div class="col">
+          <div class="collapse multi-collapse" id="multiCollapseExample2">
+                  <a href="/productos/remera"><p>REMERAS</p></a>
+                  <hr>
+                  <a href="/productos/buzo"><p>BUZOS</p></a>
+                  <hr>
+                  <a href="/productos/pantalon"><p>PANTALONES</p></a>
+                  <hr>
+                  <a href="/productos/camisa"><p>CAMISAS</p></a>
+                  <hr>
+                  <a href="/productos/malla"><p>MALLAS</p></a>
+                  <hr>
+                  <a href="/productos/medias"><p>MEDIAS</p></a>
+                  <hr>
+                  <a href="/productos/gorra"><p>GORRAS</p></a>
+                  <hr>
+                  <a href="/productos/campera"><p>CAMPERAS</p></a>
+                  <hr>
+                  <a href="/productos/bermuda"><p>BERMUDAS</p></a>
+                  <hr>
+                  <a href="/productos/accesorio"><p>ACCESORIOS</p></a>
+        </div>
+        </div>
+      </div>
+    </div>
+  <a href="/productos/carrito"><i class="fas fa-shopping-cart carrito"></i></a>
+  </div>
+ <div class="aviso-cuotas"> <p class="seis-cuotas">6 y 12 CUOTAS SIN INTERÉS</p> </div>
+</header>

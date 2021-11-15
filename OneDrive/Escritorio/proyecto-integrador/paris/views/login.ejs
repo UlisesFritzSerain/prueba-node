@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+    <title>Login</title>
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main class="main-login">
+        <div class="fondo-login">
+            <h2 class="titulo-login">Ingresar</h2>
+            <form action="/usuarios/login" method="POST" class="form-login">
+                <div class="login-facebook"><a href="#"></a><i class="fab fa-facebook-square"></i>
+                    <label for="login-facebook">
+                     Facebook Login
+                    </label></a>
+                </div>
+                <br>
+                <hr>    
+                <br>
+                <br>
+                 
+                <label for="usuario" class="label-login">Email</label><br>
+                <input class="input-login" type="email" name="email" placeholder="Email"><br>
+                <% if(locals.errors && errors.email){ %>
+                    <div class="text-danger">
+                        <%= errors.email.msg %> 
+                    </div> 
+                    <% } %> 
+                <label for="contraseña" class="label-login">Contraseña</label><br>
+                <input class="input-login" type="password" name="password" placeholder="Contraseña"><br>
+            
+                <a href="/7856" class="olvidar-contraseña">¿Olvidaste tu contraseña?</a><br>
+                <button type="submit" class="ingresar-boton">Ingresar</button>
+        
+                <p class="registrarse-texto">¿No tenés cuenta? ¡Registrate!</p>
+                <a href="/usuarios/register" class="enlace-registrarse">
+                    <div class="registrarse-boton">Registrarse</div>
+                </a>
+            </form>
+        </div>
+    </main>
+    <%- include('./partials/footer.ejs') %>
+    <script type="text/javascript" src="../jquey/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

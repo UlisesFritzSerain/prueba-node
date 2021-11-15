@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+    <title>Carrito de compras</title>
+<body>
+    <%- include('./partials/header.ejs') %>
+    <main class="main-carrito">
+        <h2 class="carrito-titulo">Mi carrito<i class="fas fa-shopping-cart"></i></h2>
+     <div class="contenedor-carrito">
+
+        <table class="carrito-tabla-control">
+        <thead class="fila-principal">
+            <tr >
+                <th> <strong>Nombre</strong> </th>
+                <th><strong>Cantidad</strong></th>
+                <th><strong>SubTotal</strong></th>
+               <th></th>
+            </tr>
+        </thead>
+        <tbody class="fila-comun">
+            <tr>
+                
+                <td class="nombre-producto">REMERA BASIC IN PROCESS</td>
+
+                <td class="cantidad-producto"><div class="botones-control"><input type="number" class="input-producto"> 
+                
+                    <button class="boton-restar"><i class="fas fa-minus"></i></button>
+                    <button class="boton-sumar"><i class="fas fa-plus"></i></button>
+                </div>
+                </td>
+
+                <td class="precio-producto">$3.475</td>
+
+                <td class="tarro-basura"><i class="fas fa-trash"></i></td>
+            </tr>
+            <tr class="fila-comun">
+                <td class="nombre-producto">REMERA TH OLD SCHOOL</td>
+                
+                <td class="cantidad-producto"> <div class="botones-control"><input type="number" class="input-producto"> 
+                
+                    <button class="boton-restar"><i class="fas fa-minus"></i></button>
+                    <button class="boton-sumar"><i class="fas fa-plus"></i></button>
+                </div>
+                </td>
+                <td class="precio-producto">$2.750</td>
+                <td class="tarro-basura"><i class="fas fa-trash"></i></td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+     <div class="div-precio-total">
+         <p>Total:</p>
+         <p>$6.225</p>
+     </div>
+     <div class="cupon">
+         <div >
+             <label for="cupon"></label>
+            <input type="text" placeholder="Escribir código cupón" name="cupon" class="cupon-input">
+         </div>
+         <div >
+           <button type="submit" name="cupon" class="cupon-boton" >APLICAR CUPÓN</button>
+         </div>
+     </div>
+    </main>    
+    
+    <%- include('./partials/footer.ejs') %>
+    <script type="text/javascript" src="../jquey/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

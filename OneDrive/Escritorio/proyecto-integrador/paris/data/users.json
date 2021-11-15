@@ -1,0 +1,38 @@
+[
+ {
+  "id": 1,
+  "firstName": "Olga",
+  "lastName": "Bunclark",
+  "email": "obunclark0@weebly.com",
+  "password": "yPUOPpnC",
+  "category": "client",
+  "img": "default-img.png"
+ },
+ {
+  "id": 2,
+  "firstName": "Christoper",
+  "lastName": "Kubacki",
+  "email": "ckubacki1@japanpost.jp",
+  "password": "NkkzGz",
+  "category": "admin",
+  "img": "default-img.png"
+ },
+ {
+  "id": 3,
+  "firstName": "Franco",
+  "lastName": "Terragna",
+  "email": "francoterragna@hotmail.com",
+  "password": "$2a$10$T0gOvE/9P4MairNDY6G6Z.ysxcZ9BYWQqGGpqc/1gzLOjjCoOOy6u",
+  "confirmPassword": "asd",
+  "image": "img-default.jpg"
+ },
+ {
+  "id": 4,
+  "firstName": "fds",
+  "lastName": "Nicolás",
+  "email": "franquito_terragna_nieto@gmail.com",
+  "password": "$2a$10$Kn16sPUnyhlkDBdrDl/V5ew94IQ6r8qNlFzhymmhLsTG1Rd.uCCbW",
+  "confirmPassword": "qwerty",
+  "image": "img-default.jpg"
+ }
+]
